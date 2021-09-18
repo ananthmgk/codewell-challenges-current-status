@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: capitalize;
+}
+
+table th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#table a {
+    text-decoration: none;
+    cursor: pointer;
+    color: red;
+}
+
+body #status {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#caption {
+    display: grid;
+    justify-content: center;
+}
+
+@media (max-width:580px) {
+    table th, td {
+        border: 1px solid black;
+        padding: 0px;
+    }
+}
