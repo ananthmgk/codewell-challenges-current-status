@@ -5,7 +5,7 @@
     text-transform: capitalize;
 }
 
-table th {
+table th, td {
     border: 1px solid black;
     padding: 10px;
 }
@@ -25,6 +25,38 @@ body #status {
 #caption {
     display: grid;
     justify-content: center;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.inprogress-color {
+    background-color: rgb(241, 207, 207);
+}
+
+.project-color {
+    background-color: rgb(219, 205, 205);
+}
+
+.source-color {
+    background-color: rgb(182, 174, 174);
+}
+
+.live-color {
+    background-color: rgb(247, 119, 119);
+}
+
+.hover:hover, .hover:active {
+    color: white !important;
 }
 
 @media (max-width:580px) {
