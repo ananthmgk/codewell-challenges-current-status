@@ -1,117 +1,117 @@
-const headers = ["Projects", "Status", "Source Code", "Live Demo"]
+const headers = ['Projects', 'Status', 'Source Code', 'Live Demo'];
 const projectsData = [
   {
-    "id": 1,
-    "title": "Gradie Sign Up",
-    "url": "https://www.codewell.cc/challenges/gradie-sign-up-page--608ac420650dff001599e8ec",
-    "status": "completed",
-    "source": "https://github.com/ananthmgk/Gradie-Signup-Page",
-    "demo": "https://ananthmgk.github.io/Gradie-Signup-Page/"
+    id: 1,
+    title: 'Gradie Sign Up',
+    url: 'https://www.codewell.cc/challenges/gradie-sign-up-page--608ac420650dff001599e8ec',
+    status: 'completed',
+    source: 'https://github.com/ananthmgk/Gradie-Signup-Page',
+    demo: 'https://ananthmgk.github.io/Gradie-Signup-Page/',
   },
   {
-    "id": 2,
-    "title": "snipper landing page",
-    "url": "https://www.codewell.cc/challenges/snipper-landing-page--608bbe67e0984a001540d79b",
-    "status": "completed",
-    "source": "https://github.com/ananthmgk/Snippet_Template_Starter_Files",
-    "demo": "https://ananthmgk.github.io/Snippet_Template_Starter_Files/"
+    id: 2,
+    title: 'snipper landing page',
+    url: 'https://www.codewell.cc/challenges/snipper-landing-page--608bbe67e0984a001540d79b',
+    status: 'completed',
+    source: 'https://github.com/ananthmgk/Snippet_Template_Starter_Files',
+    demo: 'https://ananthmgk.github.io/Snippet_Template_Starter_Files/',
   },
   {
-    "id": 3,
-    "title": "Commune Waitlist",
-    "url": "https://www.codewell.cc/challenges/commune-waitlist-page--608d9565747bad001532bd64",
-    "status": "completed",
-    "source": "https://github.com/ananthmgk/Commune-Waitlist-codewell-proj",
-    "demo": "https://ananthmgk.github.io/Commune-Waitlist-codewell-proj/"
+    id: 3,
+    title: 'Commune Waitlist',
+    url: 'https://www.codewell.cc/challenges/commune-waitlist-page--608d9565747bad001532bd64',
+    status: 'completed',
+    source: 'https://github.com/ananthmgk/Commune-Waitlist-codewell-proj',
+    demo: 'https://ananthmgk.github.io/Commune-Waitlist-codewell-proj/',
   },
   {
-    "id": 4,
-    "title": "Spense landing page",
-    "url": "https://www.codewell.cc/challenges/spense-landing-page--608a7a859691700015db16c5",
-    "status": "in_progress"
+    id: 4,
+    title: 'Spense landing page',
+    url: 'https://www.codewell.cc/challenges/spense-landing-page--608a7a859691700015db16c5',
+    status: 'in_progress',
   },
   {
-    "id": 5,
-    "title": "Chirp landing page",
-    "url": "https://www.codewell.cc/challenges/chirp-landing-page--60fc1e36a383e41090a3c71c",
-    "status": "todo"
+    id: 5,
+    title: 'Chirp landing page',
+    url: 'https://www.codewell.cc/challenges/chirp-landing-page--60fc1e36a383e41090a3c71c',
+    status: 'todo',
   },
   {
-    "id": 6,
-    "title": "Comment module",
-    "url": "https://www.codewell.cc/challenges/comment-module--608bc18ee0984a001540d7a6",
-    "status": "todo"
+    id: 6,
+    title: 'Comment module',
+    url: 'https://www.codewell.cc/challenges/comment-module--608bc18ee0984a001540d7a6',
+    status: 'todo',
   },
   {
-    "id": 7,
-    "title": "Fiber landing page",
-    "url": "https://www.codewell.cc/challenges/fiber-landing-page--608a7e639691700015db16d1",
-    "status": "todo"
+    id: 7,
+    title: 'Fiber landing page',
+    url: 'https://www.codewell.cc/challenges/fiber-landing-page--608a7e639691700015db16d1',
+    status: 'todo',
   },
   {
-    "id": 8,
-    "title": "hosterr waitlist page",
-    "url": "https://www.codewell.cc/challenges/hosterr-waitlist-page--60b3ea4c0cc72310b5a2494d",
-    "status": "todo"
+    id: 8,
+    title: 'hosterr waitlist page',
+    url: 'https://www.codewell.cc/challenges/hosterr-waitlist-page--60b3ea4c0cc72310b5a2494d',
+    status: 'todo',
   },
   {
-    "id": 9,
-    "title": "indie brew landing page",
-    "url": "https://www.codewell.cc/challenges/indiebrew-landing-page--608aca51650dff001599e8f9",
-    "status": "todo"
+    id: 9,
+    title: 'indie brew landing page',
+    url: 'https://www.codewell.cc/challenges/indiebrew-landing-page--608aca51650dff001599e8f9',
+    status: 'todo',
   },
   {
-    "id": 10,
-    "title": "meet waitlist template",
-    "url": "https://www.codewell.cc/challenges/meeet-waitlist-template--60e05defa383e41090a3c273",
-    "status": "todo"
+    id: 10,
+    title: 'meet waitlist template',
+    url: 'https://www.codewell.cc/challenges/meeet-waitlist-template--60e05defa383e41090a3c273',
+    status: 'todo',
   },
   {
-    "id": 11,
-    "title": "news letter popup",
-    "url": "https://www.codewell.cc/challenges/newsletter-popup-template--60a8db35203a0e6180bb5035",
-    "status": "todo"
+    id: 11,
+    title: 'news letter popup',
+    url: 'https://www.codewell.cc/challenges/newsletter-popup-template--60a8db35203a0e6180bb5035',
+    status: 'todo',
   },
   {
-    "id": 12,
-    "title": "time now landing page",
-    "url": "https://www.codewell.cc/challenges/timenow-landing-page--608d9a7d747bad001532bd70",
-    "status": "todo"
+    id: 12,
+    title: 'time now landing page',
+    url: 'https://www.codewell.cc/challenges/timenow-landing-page--608d9a7d747bad001532bd70',
+    status: 'todo',
   },
   {
-    "id": 13,
-    "title": "Unifeed Blog page",
-    "url": "https://www.codewell.cc/challenges/unifeed-blog-page--608d9d5c747bad001532bd7c",
-    "status": "todo"
+    id: 13,
+    title: 'Unifeed Blog page',
+    url: 'https://www.codewell.cc/challenges/unifeed-blog-page--608d9d5c747bad001532bd7c',
+    status: 'todo',
   },
   {
-    "id": 14,
-    "title": "Yelp Camp",
-    "url": "https://www.codewell.cc/challenges/yelpcamp-by-colt-steele--6144c7c8a383e41090a3d84b",
-    "status": "todo"
+    id: 14,
+    title: 'Yelp Camp',
+    url: 'https://www.codewell.cc/challenges/yelpcamp-by-colt-steele--6144c7c8a383e41090a3d84b',
+    status: 'todo',
   },
-]
+];
 
 const statusMap = {
-  'completed': 'Completed',
-  'todo': 'Todo',
-  'in_progress': 'In Progress'
-}
+  completed: 'Completed',
+  todo: 'Todo',
+  in_progress: 'In Progress',
+};
 
 function getRow(rowData) {
-  let rowText = []
-  rowText.push(`<td> ${getAnchorTag(rowData.url, rowData.title)}</td>`)
-  rowText.push(`<td> ${statusMap[rowData.status]} </td>`)
-  rowText.push(`<td> ${getAnchorTag(rowData.source)}</td>`)
-  rowText.push(`<td> ${getAnchorTag(rowData.demo)}</td>`)
-  return `<tr> ${rowText.join("\n")} </tr>`
+  let rowText = [];
+  rowText.push(`<td> ${getAnchorTag(rowData.url, rowData.title)}</td>`);
+  rowText.push(`<td> ${statusMap[rowData.status]} </td>`);
+  rowText.push(`<td> ${getAnchorTag(rowData.source)}</td>`);
+  rowText.push(`<td> ${getAnchorTag(rowData.demo)}</td>`);
+  return `<tr> ${rowText.join('\n')} </tr>`;
 }
 
-function getAnchorTag(url, text='Click here to view') {
+function getAnchorTag(url, text = 'Click here to view') {
   if (url) {
-    return `<a href="${url}" target="_blank"> ${text} </a>`
+    return `<a href="${url}" target="_blank"> ${text} </a>`;
   } else {
-    return "N/A"
+    return 'N/A';
   }
 }
 
@@ -120,16 +120,16 @@ function getHeader() {
   for (const header of headers) {
     headerRows.push(`<th> ${header} </th>`);
   }
-  return `<tr> ${headerRows.join("\n")} </tr>`;
+  return `<tr> ${headerRows.join('\n')} </tr>`;
 }
 
 function getTable() {
-  let tableData = []
-  tableData.push(getHeader())
+  let tableData = [];
+  tableData.push(getHeader());
   for (const project of projectsData) {
-    tableData.push(getRow(project))
+    tableData.push(getRow(project));
   }
-  return tableData.join("\n");
+  return tableData.join('\n');
 }
 
 document.addEventListener('DOMContentLoaded', (event) => {

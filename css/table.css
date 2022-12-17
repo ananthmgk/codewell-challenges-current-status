@@ -1,28 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
+* {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+#caption {
+  font-weight: bold;
+  text-align: center;
+}
+
 table {
   font-family: 'Nunito Sans', sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
 
-td, th {
+td,
+th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-tr:nth-child(even){
+tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
 tr:hover {
   background-color: #ddd;
+  box-shadow: 0 1px 10px;
+  color: white;
 }
 
 th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
 }
