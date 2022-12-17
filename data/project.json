@@ -1,4 +1,4 @@
-const projectsData = [
+[
   {
     "id": 1,
     "title": "Gradie Sign Up",
